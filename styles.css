@@ -49,6 +49,7 @@ form.example input[type=text] {
 body {
     font-family: "Open Sans", sans-serif;
 }
+ 
 
 h1 {
     font-weight: 800;
@@ -65,7 +66,16 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
+    padding: 30px;
+
+}
+
+.logoheader img{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    margin-left: 50%;
 
 }
 
@@ -80,7 +90,7 @@ header nav ul {
 header nav a {
     text-decoration: none;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
     color: #000000;
     margin-left: 10px
 }
@@ -204,7 +214,7 @@ section#detailed .agendar {
 section#detailed button {
     width: 350px;
     height: 100px;
-    background: #d7891c;
+    background: #E9B44C;
     object-fit:cover;
     color: #ffffff;
     font-weight: 600;
@@ -221,10 +231,20 @@ section#detailed > div {
 }
 
 footer {
-    background-color: #E49c29;
+    background-color:#E9B44C;
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
+}
+
+.logo img{
+    max-width:60px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-left: 40%;
+
 }
 
 footer img {
@@ -233,7 +253,7 @@ footer img {
 
 footer p {
     max-width: 255px;
-    color: #ffffff;
+    color: #000000;
     margin: 0;
     font-size: 11px;
     text-align: center;
@@ -241,20 +261,26 @@ footer p {
 
 footer ul {
     list-style: none;
-    color: #fff;
-    font-size: 16px;
+    color: rgb(102, 89, 89);
+    font-size: 14px;
+    text-align: right;
+    
 }
 
 footer ul li.title {
     font-weight: bold;
+    color: #ffffff;
     font-size: 20px;
+    
     
 }
 
 footer a {
     font-style: normal;
-    color: #fff;
+    color: rgb(59, 59, 59);
     text-decoration: none;
+    font-weight: 550;
+    
 }
 
 .margin-list li:hover {
